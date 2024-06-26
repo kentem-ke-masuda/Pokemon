@@ -1,0 +1,14 @@
+
+.grid{
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-auto-rows: auto; */
+    /* place-items: center; こんなのもあるぞ～*/
+    gap: 10px;
+    background-color: rgb(166, 229, 239);
+    padding: 10px;
+    align-items: center; /* 縦方向の中央揃え */
+    justify-items: center; /* 横方向の中央揃え */
+}

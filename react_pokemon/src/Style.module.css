@@ -1,0 +1,24 @@
+
+.container{
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 80px;
+}
+
+.btn{
+    border: none;
+    height: 60px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 7%;
+    transition: all 0.5s;
+    box-shadow: 0 0 8px gray;
+}
+
+.btn:hover{
+    box-shadow: none;
+    transform: translateY(5px);
+}
